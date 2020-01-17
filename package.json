@@ -1,0 +1,27 @@
+{
+  "name": "3d-balloons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel source/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekobird/3d-balloons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekobird/3d-balloons/issues"
+  },
+  "homepage": "https://github.com/nekobird/3d-balloons#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "three": "^0.112.1"
+  },
+  "devDependencies": {
+    "sass": "^1.24.5"
+  }
+}
