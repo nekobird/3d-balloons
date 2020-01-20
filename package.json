@@ -2,26 +2,46 @@
   "name": "3d-balloons",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel source/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/nekobird/3d-balloons#readme",
+  "bugs": {
+    "url": "https://github.com/nekobird/3d-balloons/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nekobird/3d-balloons.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nekobird/3d-balloons/issues"
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/nekobird/3d-balloons#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
     "three": "^0.112.1"
   },
   "devDependencies": {
-    "sass": "^1.24.5"
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "browserslist": "^4.8.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.3.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "terser-webpack-plugin": "^2.3.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
